@@ -106,10 +106,10 @@ ul li a:hover {
 .hill {
   margin-right: 100px;
 }
-.pill {
+.doctor {
   float: left;
-  margin-bottom: 5px;
+  margin-left: 70px;
 }
-.pill p {
-  float: right;
+.doc {
+  float: left;
 }
