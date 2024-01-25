@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  display: border-box;
+}
+ul {
+  display: inline-block;
+}
+ul li a {
+  float: right;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 20px;
+  color: black;
+}
+
+.hero {
+  background: url("../images/ezgif-2-b583d0ce77.png") no-repeat center
+    center/cover;
+  height: 80vh;
+}
+.nav-left {
+  float: left;
+}
+.nav-right {
+  float: right;
+  list-style-type: none;
+}
+.clearfix {
+  clear: both;
+}
+.hero {
+  display: block;
+}
+.herocontent {
+  float: right;
+  width: 50%;
+  padding: 110px 0;
+  font-size: xx-large;
+}
+.herocontent p {
+  padding-top: 20px;
+  font-size: large;
+  font-weight: bold;
+}
+.herocontent h1 {
+  font-size: xx-large;
+  font-weight: bold;
+  color: rgb(84, 84, 207);
+}
+
+/* p {
+  color: black;
+  display: inline;
+  
+  font-size: large;
+}  */
+/* h1 {
+  float: right;
+  padding-right: 50px;
+} */
+
+ul li a:hover {
+  color: rgb(62, 62, 199);
+  cursor: pointer;
+}
+.buton {
+  position: absolute;
+  top: 34%;
+  left: 37%;
+  transform: translate(50%, 50%);
+  border-radius: 5px;
+}
+.right {
+  padding: 10px 10px;
+  background-color: rgb(62, 62, 220);
+  margin: 40px 30px;
+  border-radius: 5px;
+  border-color: black;
+  width: 20%;
+}
+.left {
+  padding: 10px 10px;
+  background-color: rgb(112, 230, 112);
+  margin: 40px 30px;
+  border-color: solid black;
+  border-radius: 5px;
+}
+.shadow {
+  box-shadow: 0px 0px 1px 1px;
+  width: 25%;
+  float: left;
+}
+.shadow.hill
