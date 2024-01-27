@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
 * {
   padding: 0;
   margin: 0 auto;
   display: border-box;
+  font-family: "Josefin Sans", sans-serif;
 }
 ul {
   display: inline-block;
@@ -77,7 +80,7 @@ ul li a:hover {
   margin: 4px 3px;
   border-radius: 10px;
   border-color: black;
-  width: 40%;
+  font-size: large;
 }
 .left {
   padding: 20px 20px;
@@ -85,31 +88,62 @@ ul li a:hover {
   margin: 43px 30px;
   border-color: solid black;
   border-radius: 5px;
+  font-size: large;
 }
 .shadow div {
-  box-shadow: 0px 0px 1px 1px lightgray;
-  width: 20%;
+  box-shadow: 0px 0px 2px 2px lightgray;
+  width: 24%;
   float: left;
   margin-top: 45px;
   border-top: 5px;
   text-decoration: inline-block;
   border-top: 5px;
-  height: 250px;
+  height: 255px;
   text-align: center;
 }
 .plan {
-  margin: 60px;
+  margin: 70px;
 }
 .image {
-  margin-left: 60px;
+  margin-left: 70px;
 }
 .hill {
   margin-right: 100px;
 }
 .doctor {
   float: left;
-  margin-left: 70px;
+  width: 45%;
 }
 .doc {
-  float: left;
+  float: right;
+  width: 50%;
 }
+.clearfix {
+  clear: both;
+}
+.click {
+  padding: 22px 22px;
+  background-color: #496bf2;
+  margin: 18px 15px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.color {
+  font-size: 50px;
+}
+.page {
+  font-size: 30px;
+  text-size-adjust: 2px;
+}
+.ment {
+  color: #496bf2;
+}
+h5 {
+  font-size: 35px;
+  margin: 60px 0;
+}
+
+.testimonials {
+  text-align: center;
+}
+
