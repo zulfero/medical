@@ -157,5 +157,14 @@ h5 {
   font-size: 155%;
   bottom: 30px;
   width: 30%;
-  margin: 0 auto;
+  margin-top: 30px;
 }
+.dive {
+  height: 30vh;
+  margin-top: 0 auto;
+}
+.person {
+  position: absolute;
+  padding-bottom: 150px;
+}
+
