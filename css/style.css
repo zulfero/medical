@@ -159,12 +159,44 @@ h5 {
   width: 30%;
   margin-top: 30px;
 }
-.dive {
-  height: 30vh;
-  margin-top: 0 auto;
-}
+
 .person {
   position: absolute;
   padding-bottom: 150px;
 }
+.dive {
+  background: url("../images/ezgif-2-81a50240fb.png") no-repeat center
+    center/cover;
+  height: 50vh;
+}
 
+.container {
+  position: absolute;
+  left: 0;
+  margin-top: 40px;
+  width: 400px;
+  padding: 20px;
+  color: aliceblue;
+}
+.line {
+  width: 100%;
+  padding: 20px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+.dial {
+  width: 100%;
+  padding: 20px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  font-size: large;
+}
+.media {
+  width: 100%;
+  padding: 20px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
