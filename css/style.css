@@ -6,6 +6,11 @@
   display: border-box;
   font-family: "Josefin Sans", sans-serif;
 }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
 ul {
   display: inline-block;
 }
@@ -145,6 +150,7 @@ h5 {
 
 .testimonials {
   text-align: center;
+  padding-bottom: 30px;
 }
 .pixels {
   text-align: center;
@@ -155,15 +161,29 @@ h5 {
 .mint {
   color: #496bf2;
   font-size: 155%;
-  bottom: 30px;
   width: 30%;
-  margin-top: 30px;
-  padding-bottom: 50px;
+}
+.pile {
+  padding-bottom: 30px;
+}
+.pov {
+  padding-bottom: 100px;
+}
+
+.contact-form input,
+textarea {
+  border: none;
+  padding: 20px;
+  margin-top: 20px;
+  width: 40%;
 }
 
 .person {
   position: absolute;
   padding-bottom: 150px;
+}
+.shape {
+  width: 20px;
 }
 .dive {
   background: url("../images/ezgif-2-81a50240fb.png") no-repeat center
@@ -171,38 +191,10 @@ h5 {
   height: 100vh;
 }
 
-.container {
-  position: absolute;
-  left: 0;
-  margin-top: 40px;
-  width: 400px;
-  padding: 30px;
-  color: aliceblue;
-}
-.line {
-  width: 100%;
-  padding: 20px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
-}
-.dial {
-  width: 100%;
-  padding: 20px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
-  font-size: large;
-}
-.media {
-  width: 100%;
-  padding: 20px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
-}
 .blue {
   background-color: blue;
 }
-.module {
+.head {
+  position: absolute;
+  float: right;
 }
