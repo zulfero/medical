@@ -170,6 +170,9 @@ h5 {
   font-size: 155%;
   width: 30%;
 }
+.dial {
+  color: #496bf2;
+}
 .testimonial-circle {
   width: 20px;
   height: 20px;
@@ -205,13 +208,20 @@ textarea {
     center/cover;
   height: 100vh;
 }
+.tile {
+  margin-right: 20px;
+}
 
 .tear {
   background-color: #496bf2;
   width: 20%;
   border-radius: 5px;
   height: 50px;
-  margin: 50px;
+  margin-top: 50px;
+  float: left;
+}
+.clearfix {
+  clear: both;
 }
 .position {
   text-align: center;
@@ -222,12 +232,14 @@ textarea {
 .footer-content {
   float: left;
   width: 25%;
+  margin-top: 30px;
 }
 .list {
-  font-size: 25px;
+  font-size: 20px;
 }
 .module.footer-content.pole {
-  margin: 10px;
+  margin-top: 30px;
+  margin-right: 10px;
 }
 .clear {
   clear: both;
