@@ -123,6 +123,9 @@ ul li a:hover {
   float: right;
   width: 50%;
 }
+.one {
+  font-size: 30px;
+}
 .clearfix {
   clear: both;
 }
@@ -135,6 +138,10 @@ ul li a:hover {
 }
 .color {
   font-size: 50px;
+}
+.color-content {
+  color: #496bf2;
+  font-size: 20px;
 }
 .page {
   font-size: 25px;
@@ -163,20 +170,18 @@ h5 {
   font-size: 155%;
   width: 30%;
 }
-.cont-circle {
-  width: 20px;
-  height: 20px;
-  border: 90px;
-  border-radius: 40px;
-  margin: 0 auto;
-  background-color: #496bf2;
-}
 .testimonial-circle {
   width: 20px;
   height: 20px;
   border: 90px;
   border-radius: 40px;
   margin: 20px;
+  display: inline-block;
+}
+.blue {
+  background-color: #496bf2;
+}
+.green {
   background-color: aqua;
 }
 .pile {
@@ -201,7 +206,7 @@ textarea {
   height: 100vh;
 }
 
-.blue {
+.tear {
   background-color: #496bf2;
   width: 20%;
   border-radius: 5px;
@@ -210,4 +215,20 @@ textarea {
 }
 .position {
   text-align: center;
+}
+.pic {
+  margin: 5px;
+}
+.footer-content {
+  float: left;
+  width: 25%;
+}
+.list {
+  font-size: 25px;
+}
+.module.footer-content.pole {
+  margin: 10px;
+}
+.clear {
+  clear: both;
 }
