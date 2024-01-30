@@ -2,19 +2,22 @@
 
 * {
   padding: 0;
-  margin: 0 auto;
-  display: border-box;
+  margin: 0;
+  box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
 }
-
+p {
+  font-size: 20px;
+  line-height: 35px;
+}
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
-ul {
+nav ul {
   display: inline-block;
 }
-ul li a {
+nav ul li a {
   float: right;
   text-decoration: none;
   list-style-type: none;
@@ -37,74 +40,63 @@ ul li a {
 .clearfix {
   clear: both;
 }
-.hero {
-  display: block;
-}
 .herocontent {
   float: right;
-  width: 50%;
-  padding: 110px 0;
-  font-size: xx-large;
+  width: 40%;
+  margin: 110px 100px;
 }
 .herocontent p {
-  padding-top: 20px;
-  font-size: large;
-  font-weight: bold;
+  margin: 30px 0;
 }
 .herocontent h1 {
-  font-size: xx-large;
+  font-size: 40px;
   font-weight: bold;
-  color: rgb(84, 84, 207);
+  color: #496bf2;
 }
-
-/* p {
-  color: black;
-  display: inline;
-  
-  font-size: large;
-}  */
-/* h1 {
-  float: right;
-  padding-right: 50px;
-} */
 
 ul li a:hover {
-  color: rgb(62, 62, 199);
+  color: #496bf2;
   cursor: pointer;
 }
-.buton {
-  position: absolute;
-  top: 34%;
-  left: 39%;
-  transform: translate(50%, 50%);
+.buton button:last-child {
+  margin-left: 20px;
+}
+.btn {
+  color: white;
+  font-size: 20px;
+  border: none;
+  padding: 20px 40px;
   border-radius: 5px;
 }
-.right {
-  padding: 20px 20px;
-  background-color: rgb(62, 62, 220);
-  margin: 4px 3px;
-  border-radius: 10px;
-  border-color: black;
-  font-size: large;
+.btn-blue {
+  background-color: #496bf2;
 }
-.left {
-  padding: 20px 20px;
-  background-color: rgb(112, 230, 112);
-  margin: 43px 30px;
-  border-color: solid black;
-  border-radius: 5px;
-  font-size: large;
+.btn-green {
+  background-color: #2dd6c1;
 }
-.shadow div {
-  box-shadow: 0px 0px 2px 2px lightgray;
-  width: 24%;
+.shadow {
+  margin: 70px 0;
+}
+.card {
+  box-shadow: 0px 0px 5px gray;
+  width: 30%;
   float: left;
-  margin-top: 45px;
-  border-top: 5px;
-  text-decoration: inline-block;
-  border-top: 5px;
-  height: 255px;
   text-align: center;
+  padding: 30px 20px;
+}
+.card:nth-child(2) {
+  margin: 0 5%;
+}
+.card h3 {
+  color: #496bf2;
+  font-size: 30px;
+  margin: 20px 0;
+}
+.about-us {
+  margin: 70px 0;
+}
+.about-us p {
+  margin: 20px 0;
 }
 .plan {
   margin: 70px;
@@ -127,16 +119,7 @@ ul li a:hover {
 .one {
   font-size: 30px;
 }
-.clearfix {
-  clear: both;
-}
-.click {
-  padding: 22px 22px;
-  background-color: #496bf2;
-  margin: 18px 15px;
-  border-radius: 5px;
-  font-size: 20px;
-}
+
 .color {
   font-size: 50px;
 }
@@ -144,10 +127,7 @@ ul li a:hover {
   color: #496bf2;
   font-size: 20px;
 }
-.page {
-  font-size: 25px;
-  text-size-adjust: 2px;
-}
+
 .ment {
   color: #496bf2;
 }
@@ -171,9 +151,7 @@ h5 {
   font-size: 155%;
   width: 30%;
 }
-.dial {
-  color: #496bf2;
-}
+
 .testimonial-circle {
   width: 20px;
   height: 20px;
@@ -182,51 +160,70 @@ h5 {
   margin: 20px;
   display: inline-block;
 }
+h2 {
+  text-align: center;
+  margin: 15px;
+  font-size: 30px;
+}
+.dial {
+  color: #496bf2;
+}
 .blue {
   background-color: #496bf2;
 }
 .green {
-  background-color: aqua;
+  background-color: #2dd6c1;
 }
 .pile {
   padding-bottom: 30px;
 }
-
-.contact-form input,
+.one h4 {
+  color: #496bf2;
+}
+.one .text-green {
+  color: #2dd6c1;
+}
+.form {
+  width: 40%;
+  padding: 40px;
+}
+.input-container,
+textarea {
+  background-color: white;
+  margin-bottom: 15px;
+  padding: 25px;
+  border-radius: 5px;
+}
+.input-container input {
+  font-size: 20px;
+}
+.input-container input,
+textarea {
+  outline: none;
+  border: none;
+}
+textarea {
+  width: 100%;
+  font-size: 20px;
+}
+/* .contact-form input,
 textarea {
   border: none;
   padding: 20px;
   margin-top: 20px;
-  width: 40%;
-}
+ 
+} */
 
 .person {
   position: absolute;
   padding-bottom: 150px;
 }
-.dive {
+.contact-form {
   background: url("../images/ezgif-2-81a50240fb.png") no-repeat center
     center/cover;
-  height: 100vh;
-}
-.tile {
-  margin-right: 20px;
+  height: 90vh;
 }
 
-.tear {
-  background-color: #496bf2;
-  width: 20%;
-  border-radius: 5px;
-  height: 50px;
-  margin-top: 50px;
-  float: left;
-}
-.clearfix {
-  clear: both;
-}
-.position {
-  text-align: center;
-}
 .pic {
   margin: 5px;
 }
@@ -237,11 +234,27 @@ textarea {
 }
 .list {
   font-size: 20px;
+  margin-bottom: 20px;
 }
 .module.footer-content.pole {
   margin-top: 30px;
   margin-right: 10px;
 }
-.clear {
-  clear: both;
+footer ul li {
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+footer ul li img {
+  margin-right: 15px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+.pole {
+  margin-bottom: 20px;
+}
+.pic img:nth-child(2) {
+  margin: 0 40px;
 }
