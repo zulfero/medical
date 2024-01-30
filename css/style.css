@@ -163,6 +163,15 @@ h5 {
   font-size: 155%;
   width: 30%;
 }
+.mint {
+  width: 20px;
+  height: 20px;
+  border: 90px;
+  border-radius: 30px;
+  background-color: #2dd6c1;
+  margin: 0 auto;
+  float: left;
+}
 .pile {
   padding-bottom: 30px;
 }
@@ -192,9 +201,13 @@ textarea {
 }
 
 .blue {
-  background-color: blue;
+  background-color: #496bf2;
+  width: 20%;
+  border-radius: 5px;
+  height: 50px;
+  margin: 50px;
 }
-.head {
+.position {
   position: absolute;
-  float: right;
+  float: left;
 }
