@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
 }
+h2{
+  font-size: 40px;
+}
 p {
   font-size: 20px;
   line-height: 35px;
@@ -137,9 +140,12 @@ h5 {
 }
 .testimonials {
   text-align: center;
-  margin-bottom: 50px;
+  margin: 70px 0;
 }
 
+.testimonials h2{
+  margin-bottom: 20px;
+}
 .pixels {
   text-align: center;
   font-size: 22px;
@@ -160,10 +166,12 @@ h5 {
   margin: 20px;
   display: inline-block;
 }
-h2 {
+.contact{
+  margin: 70px 0;
+}
+.contact h2 {
   text-align: center;
-  margin: 15px;
-  font-size: 30px;
+  margin-bottom: 20px;
 }
 .dial {
   color: #496bf2;
@@ -206,13 +214,6 @@ textarea {
   width: 100%;
   font-size: 20px;
 }
-/* .contact-form input,
-textarea {
-  border: none;
-  padding: 20px;
-  margin-top: 20px;
- 
-} */
 
 .person {
   position: absolute;
